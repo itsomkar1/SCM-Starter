@@ -27,6 +27,7 @@ export default function HomePage() {
       console.log ("Account connected: ", account);
       setAccount(account);
     }
+      
     else {
       console.log("No account found");
     }
